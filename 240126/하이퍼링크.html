@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>하이퍼텍스트 링크 연습</title>
+  </head>
+  <body>
+    <h1>텍스트 링크 만들기</h1>
+    <p>
+      문단 태그 내용 안에서 링크 부분
+      <a href="https://www.naver.com" target="_blank">네이버</a>로 이동
+    </p>
+    <!-- a태그 속성 정리
+             _blank : 링크 내용이 새 창이나 새 탭에서 열립니다.
+             _self : targer속성의 기본 값
+             _parent : 프레임을 사용했을 때 링크 내용을 부모 프레임에 표시
+             _top : 프레임에서 벗어나 링크 내용을 전체 화면에 표시
+                    아이프래임 <iframe>에 적용해보기.
+                    -->
+
+    구글로 이동
+    <img
+      src="https://i.namu.wiki/i/TxTeaxBgwSXZRCQIMAh8O4Uu09PQMJ04whD6yZpHbM-sK8nIl0U5EREIAYy8VLlFCICNF5clfhTYIKQvFfOQkWApJk86rszVtUEb8bv3tyNOTW07mp82GTWMq5AyIhf93ok0XWSbPNGnRb8bm5XmGg.svg"
+      width="100px"
+    />
+    <br />
+    과제물 제출 네이버
+    <a href="https://cafe.naver.com/bigbluesky" _blank>
+      <img
+        src="https://wikis.krsocsci.org/images/f/f4/%EB%84%A4%EC%9D%B4%EB%B2%84%EC%B9%B4%ED%8E%98_%EB%A1%9C%EA%B3%A0.png"
+        width="50px"
+      />카페 </a
+    >로 이동
+    <br />
+    <a href="https://githrd.cafe24.com">
+      <img
+        src="data:image/png;base64,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"
+        width="100px"
+      />
+      글로벌아이티 인재개발원</a
+    >
+    링크
+    <br><br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124013.82092789326!2d100.47055006027222!3d13.752808034370519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fe8aa855c75%3A0xf3f07635511f7f1a!2z67mg65qc64KoIOyLnOyepQ!5e0!3m2!1sko!2skr!4v1706248686727!5m2!1sko!2skr" width="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </body>
+</html>

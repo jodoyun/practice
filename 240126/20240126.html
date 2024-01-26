@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>1일차
+            <ol type="a">
+                <li>해녀박물관</li>
+                <li>낚시체험</li>
+            </ol>
+        </li>
+        <li>2일차</li>
+        <ol type="A" start="3">
+            <li>용눈이오름</li>
+            <li>만장굴</li>
+            <li>카약체험</li>
+        </ol>
+    </ul>
+    
+    <table border>
+        <!-- caption : 표의 제목 -->
+        <caption>색깔의 종류</caption> 
+        <!-- table row 줄을 정의 <td><th> 포함해야만 가능 -->
+            <!-- colspan : 두 개의 칸을 합친다 (셀병합) -->
+            <!-- rowspan : 두 줄(행)을 합친다 (셀병합) -->
+        <thead>    
+        <tr>
+            <th>종류</th> <th colspan="2" style="background-color: yellowgreen"> 밝은 계열</th> <th>어두운 계열</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td> <td>빨강</td> <td>분홍색</td> <td>검정</td>
+        </tr>
+        <tr>
+            <td>2</td> <td>파랑</td> <td rowspan="2" style="background-color: lightblue;">하늘색</td> <td>남색</td>
+        </tr>
+        <tr>
+            <td>3</td> <td>노랑</td> <td>회색</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>합계</td> <td>3개</td> <td>3개</td> <td>3개</td>
+            </tr>
+        </tfoot>
+    </table>
+<br>
+    <table border>
+        <caption>점심 메뉴 고민</caption>
+        <tr>
+            <th>한식</th> <th>일식</th> <th>중식</th>
+        </tr>
+    </table>
+    <br>
+    <table border>
+       <h3>상품구성</h3>
+       <caption>실속형과 고급형 상품 구성</caption>
+       <tr>
+        <td>용도</td> <td>중량</td> <td>개수</td> <td>가격</td>
+       </tr>
+       <tr>
+        <td rowspan="2">실속형</td> <td>3kg</td> <td>11~16과</td> <td>17,000원</td>
+       </tr>
+       <tr>
+        <td>5kg</td><td>18~25과</td><td>25,000원</td>
+       </tr>
+       <tr>
+       <td rowspan="2">고급형</td> <td>3kg</td> <td>11~16과</td> <td>28,000원</td>
+       </tr>
+       <tr>
+         <td>5kg</td> <td>18~25과</td> <td>47,000원</td>
+       </tr>
+        </dl>
+    </table>
+<br>
+    <table border>
+        <tr>
+            <th>이름</th> <td>조도윤</td> <th>연락처</th> <td>비공개</td>
+        </tr>
+        <tr>
+            <th>주소</th> <td colspan="3">커피</td>
+        </tr>
+        <tr>
+            <th>공부하는 것</th> <td colspan="3">귤</td>
+        </tr>
+    </table>
+    <!-- colspan rowspan 직접 하면 헷갈림. 복습하기 -->
+</body>
+</html>
