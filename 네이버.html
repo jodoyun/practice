@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버</title>
+    <style>
+        .wrapper{
+            min-width: 1340px;
+
+        }
+        .header{
+            width: 1280px;
+            margin: 0 auto;
+        }
+        .search-area{
+            z-index: 120;
+            position: relative;
+            height: 156px;
+            padding: 72px 0 42px;
+        }
+        .left-nav{
+            position: absolute;
+            left: -10;
+            top: 18;
+        }
+        .left-pay{
+            position: absolute;
+            left: 30;
+            top: 18;
+        }
+        .right-talk{
+            position: absolute;
+            right: 60;
+            top: 18;
+        }
+        .right-talk{
+            position: absolute;
+            right: 120;
+            top: 18;
+        }
+        .box1{
+            position: absolute;
+            width: 630px;
+            height: 50px;
+            border-radius: 25px 25px;
+            border: 1px solid rgb(110, 209, 110);
+            z-index: 10;
+            top: 60px;
+            left: 146px;
+            transform: translateX(-50%);
+        }
+        .box1 img{
+            padding: 7px;
+        }
+        .search{
+            display: flex;
+            justify-content: left;
+            margin-left: 5px;
+        }
+        .searching{
+            position: absolute;
+            right: 80px;
+        }
+        .화살표{
+            position: absolute;
+            right: 70px;
+        }
+        .돋보기{
+        position: absolute;
+        right: 30px;
+        }
+        .box2{
+            display: relative;
+            margin: 72px auto 0;
+            width: 800px;
+            
+        }
+        .box2 img{
+            width: 35px;
+            margin-left: 10px;
+        }
+        .shortcut-list{
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        .shortcut-item{
+            position: relative;
+            display: block;
+            width: 64px;
+        }
+        .item-placement{
+            position: relative;
+            width: 48px;
+            height: 48px;
+        }
+        .item-text{
+            text-overflow: ellipsis;
+            margin-top: 7px;
+            line-height: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="search-area">
+                <div class="left-nav">
+                    <img src="../images/네이버/네이버페이 개발자센터_files/카테고리.png" alt="카테고리" width="30px;">
+                </div>
+                <div class="left-pay">
+                    <img src="../images/네이버/네이버페이 개발자센터_files/네이버페이.png" alt="네이버페이" width="30px;">
+                </div>
+                <div class="right-talk">
+                    <img src="../images/네이버/네이버페이 개발자센터_files/네이버톡.png" alt="네이버톡" width="30px;">
+                </div>
+                <div class="right-notif">
+                    <img src="../images/네이버/네이버페이 개발자센터_files/알림.png" alt="알림" width="30px;">
+                </div>
+                <div class="box1">
+                    <div class="search">
+                        <img src="../images/네이버/네이버페이 개발자센터_files/네이버 메인 로고2.png" alt="네이버 메인 로고2" width="40px;">
+                        <div class="searching"><img src="../images/네이버/네이버페이 개발자센터_files/회색 키보드.png" alt="타이핑" width="40px;"></div>
+                        <div class="화살표"><img src="../images/네이버/네이버페이 개발자센터_files/아래 화살표.png" alt="화살표" width="20px;"></div>
+                        <div class="돋보기"><img src="../images/네이버/네이버페이 개발자센터_files/돋보기.png" alt="돋보기"></div>
+                    </div>        
+                </div>
+                <div class="box2">
+                    <ul class="shortcut-list">
+                        <li class="shortcut-item">
+                            
+                            <a href="https://www.naver.com"> 
+                                <span class="item-placement">
+                                    <img src="../images/네이버/네이버메일.png" alt="네이버메일" >
+                                </span>                    
+                            </a>
+                            <span class="item-text">
+                                메일
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버카페.png" alt="네이버카페">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                메일
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버블로그.png" alt="네이버 블로그">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                블로그
+                            </span>
+
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버쇼핑.png" alt="네이버쇼핑">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                쇼핑
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버뉴스.png" alt="">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                뉴스
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버증권.png" alt="">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                증권
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버부동산.png" alt="">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                부동산
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버지도.png" alt="">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                지도
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버웹툰.png" alt="">
+                            </span>
+                            </a>
+                            <span class="item-text">
+                                웹툰
+                            </span>
+                        </li>
+                        <li class="shortcut-item">
+                            <a href="https://www.naver.com"> 
+                            <span>
+                                <img src="../images/네이버/네이버치지직.png" alt="">
+                            </span>
+                            </a>
+                            <span>
+                                치지직
+                            </span>
+                        </li>
+                        <!-- <img src="../images/네이버/네이버카페.png" alt="네이버카페">
+                        <img src="../images/네이버/네이버블로그.png" alt="네이버 블로그">
+                        <img src="../images/네이버/네이버쇼핑.png" alt="네이버쇼핑">
+                        <img src="../images/네이버/네이버뉴스.png" alt="">
+                        <img src="../images/네이버/네이버증권.png" alt="">
+                        <img src="../images/네이버/네이버부동산.png" alt="">
+                        <img src="../images/네이버/네이버지도.png" alt="">
+                        <img src="../images/네이버/네이버웹툰.png" alt="">
+                        <img src="../images/네이버/네이버치지직.png" alt=""> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

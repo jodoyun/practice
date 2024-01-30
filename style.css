@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+/* 헤더부분 시작 */
+header{
+    display: flex;
+    background-color:white;
+    height: 70px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.nav a{
+    padding: 15px;
+}
+a.hover{
+    color: #01a1dd;
+    background-color:rgb(179, 173, 165)
+}
+/* 메인 부분 시작 */
+main{
+    background-image: url(../images/카페\ 이미지.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* 푸터 부분 시작 */
+
+footer{
+    color: gray;
+    font-weight: 600;
+}
