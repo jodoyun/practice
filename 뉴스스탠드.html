@@ -16,13 +16,15 @@
         font-style: normal;
       }
         body{
-            background-image: url(../연습/뉴스스탠드_이미지/바닥질감.jpg)
+            background-image: url(../연습/뉴스스탠드_이미지/바닥질감.jpg);
             /* min-height: 810px; */
+            margin: 0;
+            padding: 0;
         }
         @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
         .center-container{
             position: absolute;
-            top: 49px;
+            top: 150px;
             bottom: 51px;
             overflow: hidden;
             width: 100%;
@@ -45,14 +47,15 @@
             position: relative;
             min-width: 1152px;
             height: 100%;
-            margin-top: 50px;
+            /* margin-top: 50px; */
         }
         .container{
-            position: absolute;
+            /* position: absolute;
             left: 0;
-            top: 50%;
+            top: 50%; */
             width: 100%;
-            margin-top: -290px;
+            /* min-height: 8px; */
+            /* margin-top: -290px; */
             z-index: 20;
             background-image: url(../images/뉴스페이퍼\ 탬플릿.png);
             background-repeat: no-repeat;
@@ -61,10 +64,11 @@
 
         }
         section{
-            position:relative;
+            /* position:relative; */
             width:50%;
             min-width:1003px;
             height: 560px;
+            min-height: 560px;
             margin: 0 auto;
             white-space: nowrap;
             
@@ -144,13 +148,18 @@
 
         padding: 4px 4px;
 
-        width: 1492px;
+        width: 100%;
 
-        /* position: absolute; */
+        /* position: relative; */
 
         height: 50px;
 
         box-shadow: 0px 2pt 10px;
+
+        min-width: 1003px;
+
+        font-family: "JalnanGothic";
+
 
       }
 
@@ -193,6 +202,21 @@
       }
 
       /* 로그인박스 */
+      .bor{
+        border-radius: 3px;
+
+        box-shadow: 0px 0px 3px 0px;
+
+        background-color : transparent;
+
+        border : none;
+
+        cursor : pointer;
+
+        width:60px;
+
+        height: 25px;
+        }
 
       .header_bor {
         height: 40px;
@@ -336,7 +360,7 @@
 
         justify-content: center;
 
-        align-items: center;
+        /* align-items:flex-end; */
 
         width: 100%;
 
@@ -349,6 +373,10 @@
         text-align: center;
 
         font-family: Arial, Helvetica, sans-serif;
+
+        position: absolute;
+
+        bottom: 0;
       }
 
       .footer_fon {
@@ -359,6 +387,22 @@
 
       .footer_fon1 {
         font-weight: bold;
+      }
+      .stand{
+        display:flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 80px;
+        padding: 5px;
+        /* bottom:0; */
+        /* margin-top: 20px; */
+        background-color: burlywood;
+        width: 100vw;
+        min-width: 1003px;
+      }
+      .stand img{
+        border: 1px solid rgb(82, 82, 82);
+        margin-left: 20px;
       }
     </style>
 </head>
@@ -491,6 +535,25 @@
                     </div>
                 </section>
             </div>
+        </div>
+    </div>
+    <div class="stand">
+        <div class="stand2"></div>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사1.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사2.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사3.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사4.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사5.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사6.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사7.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사8.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사9.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사10.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사11.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사12.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사13.gif" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사14.png" alt=""></a>
+            <a href=""><img src="../연습/뉴스스탠드_이미지/신문사 15.png" alt=""></a>
         </div>
     </div>
     <footer>
